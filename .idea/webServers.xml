@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b0cdf540-3650-439d-8cec-be06dcbc6e31" name="cmstest" url="http://s3.ho.ua">
+        <fileTransfer host="s3.ho.ua" port="21" password="df9edf9fdfc4dfc2dfc3dfcddfccdf92" username="testcms">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

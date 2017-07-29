@@ -2,6 +2,6 @@
 
 $query = require 'bootstrap.php';
 
-$tasks = $query->selectAll('todos');
+$tasks = $query->selectAll('todo');
 
 require 'index.view.php';

@@ -12,10 +12,15 @@ class Connection
     /**
      * @return PDO
      */
-    public static function make()
+    public static function make($config)
     {
         try {
-            return $pdo = new PDO('mysql:host=127.0.0.1;dbname=testcms', 'testcms', '45nhigf8');
+            return new PDO(
+                $config['host'].';dbname=' .$config['name'],
+                $config['user'],
+                $config['password'],
+                $config['options']
+            );
         } catch (PDOException $e) {
             die($e->getMessage());
         }

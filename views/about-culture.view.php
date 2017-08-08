@@ -1,10 +1,7 @@
-<html>
-<head>
-    <title>Document</title>
-</head>
-<body>
+<?php require ('partials/head.php'); ?>
+
 <ul>
     <h1>About Culture Page</h1>
 </ul>
-</body>
-</html>
+
+<?php require ('partials/footer.php'); ?>
